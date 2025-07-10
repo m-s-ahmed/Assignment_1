@@ -9,6 +9,9 @@
   font-style: normal;
 }
 
+body{
+    background-color: #f9f6f6;
+}
 /* shared style */
 
 .btn-primary{
@@ -18,6 +21,10 @@
     padding: 12px 36px;
     border-radius: 5px;
     border: none;
+}
+
+.dark-2{
+    color: #252432;
 }
 
 /* nav style */
@@ -65,6 +72,35 @@ nav ul li{
 .banner-greetings{
     font-size: 65px;
     text-align: center;
-    /* padding-top: 309px; */
     margin-bottom: 37px;
+}
+
+/* main style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    margin-top: 116px;
+}
+
+.action img{
+    border-radius: 20px;
+    width: 403px;
+    height: 328px;
+    
+}
+
+.action h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+.action h2, p{
+    margin-bottom: 23px;
 }
