@@ -85,7 +85,7 @@ nav ul li {
 /* header */
 
 .header {
-    background-image: url(/Milestone_1/Assignment_1/Assets/Hero-bg.png);
+    background-image: url("../Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 698px;
